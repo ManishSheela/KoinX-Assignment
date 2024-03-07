@@ -1,0 +1,89 @@
+.analyst-estimates-container {
+  margin-top: 20px;
+
+
+  background-color: #fff; /* White background */
+  padding: 20px;
+  margin: 20px 0; /* Adjust top and bottom margin */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for a subtle lift */
+
+}
+
+
+
+.estimates-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  width: 100%; /* Add this line to control the width of the container */
+  align-items: stretch; /* Add this line to ensure child elements stretch vertically */
+}
+
+.estimate {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.line {
+  height: 8px;
+  border-radius: 4px;
+}
+
+.green-line {
+  background-color: #8edb8e;
+}
+
+.grey-line {
+  background-color: #d1d1d1;
+}
+
+.red-line {
+  background-color: #e68b7c;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+}
+
+.light-green {
+  background-color: #a7d9af;
+}
+
+.estimate-text {
+  margin-left: 10px;
+}
+
+.buy-line,
+.hold-line,
+.sell-line {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.green-line {
+  background-color: #8edb8e;
+  color: #1d8d1d;
+}
+
+.grey-line {
+  background-color: #d1d1d1;
+  color: #4f4f4f;
+}
+
+.red-line {
+  background-color: #e68b7c;
+  color: #8b423a;
+}

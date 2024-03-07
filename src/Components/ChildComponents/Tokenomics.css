@@ -1,0 +1,68 @@
+.tokenomics-container {
+    max-width: 800px;
+    /* margin: 0 auto; */
+    /* padding: 20px; */
+    font-family: 'Arial', sans-serif;
+    color: #333;
+
+
+
+    background-color: #fff; /* White background */
+    padding: 20px;
+    margin: 20px 0; /* Adjust top and bottom margin */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for a subtle lift */
+
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .chart-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .semi-circle1 {
+    width: 100px;
+    height: 80px;
+    background-color: transparent;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0% 50%);
+  }
+  .semi-circle2 {
+    width: 100px;
+    height: 20px;
+    background-color: transparent;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0% 50%);
+  }
+  
+  .blue {
+    background-color: #3498db;
+  }
+  
+  .orange {
+    background-color: #e67e22;
+  }
+  
+  .labels {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: -10px; /* Adjust to fine-tune label positioning */
+  }
+  
+  .label {
+    width: 40%;
+    text-align: center;
+  }
+  
+  .blue-point {
+    color: #3498db;
+  }
+  
+  .orange-point {
+    color: #e67e22;
+  }
+  

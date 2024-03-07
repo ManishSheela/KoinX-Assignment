@@ -1,0 +1,59 @@
+/* src/components/YouMayAlsoLike/YouMayAlsoLike.css */
+.you-may-also-like {
+    /* max-width: 800px; */
+    margin: 20px auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #fff; /* White background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for a subtle lift */
+}
+
+.coin-carousel {
+    display: flex;
+    overflow-x: auto;
+    margin-top: 10px;
+}
+
+.coin-item {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    padding: 15px; /* Increased padding for a more spaced-out look */
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    width: 160px; /* Adjust the width as needed */
+}
+
+.coin-row {
+    display: flex;
+    align-items: center;
+}
+
+.coin-logo {
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    border-radius: 50%;
+    margin-right: 5px; /* Adjust the margin right for a bit gap */
+}
+
+.coin-info {
+    text-align: center;
+}
+
+.symbol {
+    font-weight: bold;
+}
+
+.price-change {
+    color: green;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.sparkline {
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+}

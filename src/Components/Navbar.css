@@ -1,0 +1,70 @@
+/* Your Navbar styling goes here */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff; /* Set white background color */
+  color: #333; /* Set text color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for a subtle lift */
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center; /* Center menu in navbar */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333; /* Set text color */
+  margin-right: 20px;
+}
+
+.get-started {
+  padding: 10px 20px;
+  background-color: #007bff; /* Set blue background color */
+  color: #fff; /* Set white text color */
+  border: none;
+  cursor: pointer;
+}
+
+/* Hamburger menu styles */
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333; /* Set text color */
+  margin: 6px 0;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #333;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for a subtle lift */
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: flex;
+  }
+}
